@@ -16,7 +16,7 @@
  - type
      데이터를 전송할 방식(get,post,delete,patch)
 
-    ```c
+ ```c
 function getJson(uri, params) {
 
     let json = {}
@@ -37,5 +37,5 @@ function getJson(uri, params) {
 
     return json;
 }
-    ```
+ ```
       
