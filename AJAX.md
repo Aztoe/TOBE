@@ -15,3 +15,4 @@
 
  - type
      데이터를 전송할 방식(get,post,delete,patch) 
+pash    그냥    
