@@ -14,5 +14,28 @@
     동기, 비동기 지정
 
  - type
-     데이터를 전송할 방식(get,post,delete,patch) 
-pash    그냥    
+     데이터를 전송할 방식(get,post,delete,patch)
+
+    ```c
+function getJson(uri, params) {
+
+    let json = {}
+
+    $.ajax({
+        url : uri,
+        type : 'get',
+        dataType : 'json',
+        data : params,
+        async : false,
+        success : function (response) {
+            json = response;
+        },
+        error : function (request, status, error) {
+            console.log(error)
+        }
+    })
+
+    return json;
+}
+    ```
+      
