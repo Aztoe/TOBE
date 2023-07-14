@@ -1,2 +1,2 @@
-#Ajax 이해
+# Ajax 이해
 ### ajax 
